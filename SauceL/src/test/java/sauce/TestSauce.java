@@ -23,7 +23,7 @@ public class TestSauce {
 		  capabilities.setCapability("browserName", "Chrome");
 		 capabilities.setCapability("platform", "Windows 10");
 	     capabilities.setCapability("version", "latest");
-	     capabilities.setCapability("build", System.getenv("JOB_NAME") + "__" + System.getenv("BUILD_NUMBER"));
+	     capabilities.setCapability("build", System.getenv(" Sauce Connect 4.5.3") + "__" + System.getenv("2589 4b3da11"));
 	    driver = new RemoteWebDriver(new URL(sauceURL), capabilities);
 	     //driver =new ChromeDriver();
 	     driver.get("https://google.com");
