@@ -25,6 +25,7 @@ public class TestSauce {
 		 capabilities.setCapability("platform", "Windows 10");
 	     capabilities.setCapability("version", "latest");
 	     capabilities.setCapability("build", "buildnumber");
+	     
 	    driver = new RemoteWebDriver(new URL(sauceURL), capabilities);
 	     //driver =new ChromeDriver();
 	     driver.get("https://google.com");
